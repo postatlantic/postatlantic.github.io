@@ -28,6 +28,7 @@ input,
 select,
 textarea {
     color: #222;
+    font-family: 'caviar_dreamsregular';
 }
 
 html {
@@ -109,6 +110,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+input {
+    font-family: 'caviar_dreamsregular';
+}
 
 body {
     font-family: 'caviar_dreamsregular';
