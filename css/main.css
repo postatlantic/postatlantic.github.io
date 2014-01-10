@@ -112,6 +112,7 @@ textarea {
 
 input {
     font-family: 'caviar_dreamsregular';
+    outline-color: #547851;
 }
 
 body {
@@ -133,7 +134,7 @@ body {
 }
 
 #logo {
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     padding-top: 2%;
     width: 400px;
     max-width: 90%;
@@ -156,6 +157,7 @@ body {
 
 .mc-field-group {
     padding-bottom: 5px;
+    min-height: 0px !important;
 }
 
 #mc-embedded-subscribe {
