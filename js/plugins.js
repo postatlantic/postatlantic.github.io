@@ -80,9 +80,9 @@ $(document).ready(function(){
 	});
 	
 	/* googleMaps Footer Map */
-		var blue = "#00D6FF"
+		var blue = "#243e22"
 		var black = "-100"
-		var green = "#77be32"
+		var green = "#666"
 		var yellow = "#f1d301"
 		var orange = "#fda527"
 		var purple = "#d786fe"
@@ -103,7 +103,7 @@ $(document).ready(function(){
                 break;
             case ('green'):
                 var color = green;
-				var saturation = 100;
+				var saturation = 0;
                 break;
             case ('yellow'):
                 var color = yellow;
@@ -126,41 +126,41 @@ $(document).ready(function(){
 				var saturation = 100;
                 break;
         }	
-		var latlng = new google.maps.LatLng(40.712503557180824,-74.00073790361023); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
+		var latlng = new google.maps.LatLng(37.8702559,-122.2685453); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
 		var styles = [
 			{
 				"featureType": "landscape",
 				"stylers": [
 					{"hue": "#000"},
 					{"saturation": -100},
-					{"lightness": 40},
-					{"gamma": 1}
+					{"lightness": 0},
+					{"gamma": 0}
 				]
 			},
 			{
 				"featureType": "road.highway",
 				"stylers": [
 					{"hue": color},
-					{"saturation": saturation},
-					{"lightness": 20},
-					{"gamma": 1}
+					{"saturation": 1},
+					{"lightness": 0},
+					{"gamma": 0}
 				]
 			},
 			{
 				"featureType": "road.arterial",
 				"stylers": [
 					{"hue": color},
-					{"saturation": saturation},
-					{"lightness": 20},
-					{"gamma": 1}
+					{"saturation": 10},
+					{"lightness": 0},
+					{"gamma": 0}
 				]
 			},
 			{
 				"featureType": "road.local",
 				"stylers": [
 					{"hue": color},
-					{"saturation": saturation},
-					{"lightness": 50},
+					{"saturation": 0},
+					{"lightness": 40},
 					{"gamma": 1}
 				]
 			},
@@ -169,8 +169,8 @@ $(document).ready(function(){
 				"stylers": [
 					{"hue": "#000"},
 					{"saturation": -100},
-					{"lightness": 15},
-					{"gamma": 1}
+					{"lightness": 0},
+					{"gamma": 0}
 				]
 			},
 			{
@@ -178,7 +178,7 @@ $(document).ready(function(){
 				"stylers": [
 					{"hue": "#000"},
 					{"saturation": -100},
-					{"lightness": 25},
+					{"lightness": 0},
 					{"gamma": 1}
 				]
 			}
@@ -196,7 +196,7 @@ $(document).ready(function(){
 		 styles: styles
 		};
 		var wpgmappitymap = new google.maps.Map(document.getElementById('wpgmappitymap'), options);
-		var point0 = new google.maps.LatLng(40.712503557180824,-74.00073790361023); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
+		var point0 = new google.maps.LatLng(37.8702559,-122.2685453); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
 		var marker0= new google.maps.Marker({
 		 position : point0,
 		 map : wpgmappitymap,

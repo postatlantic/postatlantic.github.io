@@ -345,7 +345,7 @@ html, body {
 	text-transform: uppercase;
 	font-weight: 700;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular' sans-serif;
 	padding: 11px 25px 11px;
 	cursor: pointer;
 	border: 2px solid #4cddf3;
@@ -460,7 +460,7 @@ html, body {
 	font-size: 15px;
 	font-weight: 400;
 	letter-spacing: 1px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular' sans-serif;
 	
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
@@ -695,7 +695,7 @@ html, body {
 	text-transform: uppercase;
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular' sans-serif;
 	background: #4cddf3;
 	border-radius: 25px;
 	padding: 13px 25px 13px;
@@ -710,14 +710,14 @@ html, body {
 .title{
 	font-weight: 300;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular' sans-serif;
 }
 .title.one{color: #404141; font-size: 37px; letter-spacing: 5px; padding: 120px 0 30px; text-transform: uppercase;}
-.title.two{color: #757575; font-size: 17px; font-family: 'Open Sans', sans-serif; width: 680px; margin: 50px auto;}
+.title.two{color: #757575; font-size: 17px; font-family: 'caviar_dreamsregular' sans-serif; width: 680px; margin: 50px auto;}
 .f-info{
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular' sans-serif;
 	font-size: 17px;
 	color: #404141;
 	background: #fff;
@@ -731,7 +731,7 @@ html, body {
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
-.f-info span{color: #aeaeae; font-size: 18px; font-family: 'Open Sans', sans-serif;}
+.f-info span{color: #aeaeae; font-size: 18px; font-family: 'caviar_dreamsregular' sans-serif;}
 .f-image{
 	cursor: pointer;
 	position: relative;
@@ -773,7 +773,7 @@ html, body {
 .title-one, .title-full-one{
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'caviar_dreamsregular' sans-serif;
 	font-size: 15px;
 	color: #d7d9da;
 	text-transform: uppercase;
@@ -781,7 +781,7 @@ html, body {
 .title-two, .title-full-two{
 	font-weight: 300;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular' sans-serif;
 	font-size: 28px;
 	color: #434343;
 	padding-bottom: 50px;
@@ -791,7 +791,7 @@ html, body {
 .half-content{
 	color: #888888;
 	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular' sans-serif;
 	line-height: 26px;
 }
 .half-content a{color: #4cddf3; text-decoration: none; font-weight: 400;}
@@ -824,7 +824,7 @@ html, body {
 .p-title-two{
 	font-weight: 300;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular' sans-serif;
 	font-size: 35px;
 	color: #fff;
 	padding: 10px 0 30px;
@@ -1356,7 +1356,7 @@ html, body {
 	zoom: 1;
 	filter: alpha(opacity=0);
 	opacity: 0;
-	background: url("color/img/color-icons.png") 0 -88px no-repeat;
+	background: url("color/img/color-icons1.png") 0 -88px no-repeat;
 	cursor: pointer;
 	
 	-webkit-transition: all 0.3s ease-in-out;
