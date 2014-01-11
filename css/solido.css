@@ -5,7 +5,7 @@
 
 ::selection {
 	background-color: #4cddf3;
-	color: #fff;
+	color: #333;
 }
 html, body {
 	background: #fff;
@@ -340,7 +340,7 @@ html, body {
 	height: auto;
 	z-index: 10;
 	position: relative;
-	color: #fff;
+	color: #547851;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -359,7 +359,7 @@ html, body {
 	transition: all 0.1s ease-in-out;
 }
 
-.buy-logo:hover{border: 2px solid #fff !important;}
+.buy-logo:hover{border: 2px solid #547851 !important;}
 
 /*.buy-logo span{
 	float: right;
@@ -368,9 +368,9 @@ html, body {
 	height: 13px;
 	margin: 3px 0 0 20px;
 }*/
-.slider-logo a, .buy-logo a{text-decoration: none; color: #fff;}
+.slider-logo a, .buy-logo a{text-decoration: none; color: #547851;}
 .main-title{
-	color: #fff;
+	color: #547851;
 	height: 385px;
 	overflow: hidden;
 	position: absolute;
@@ -2116,5 +2116,5 @@ html, body {
 /* See more at: http://avexdesigns.com/responsive-youtube-embed/#sthash.xRJhxXBs.dpuf*/
 
 
-.pattern{ background-image:url("../img/slider/pattern.jpg");}
+.pattern{ background-image:url("../img/slider/pattern.jpg");background-size: cover}
 .darker .sticky-wrapper{ background-color:#000;}
