@@ -399,7 +399,7 @@ html, body {
 	font-size: 100px;
 	font-weight: 300;
 	text-align: center;
-	font-family:  "Brandon Grot W01 Bold",'Montserrat', sans-serif; ,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'caviar_dreamsregular' sans-serif;	
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	z-index: 100;
@@ -467,8 +467,8 @@ html, body {
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
-.portfolio-meta div:last-child{font-weight: 400; opacity: 0.5; font-size: 13px;}
-.team-box .portfolio-meta div:last-child {font-weight: 400; opacity: 1; font-size: 16px;}
+.portfolio-meta div:last-child{font-weight: 400; opacity: 0.5; font-size: 13px; font-family: 'caviar_dreamsregular' sans-serif;}
+.team-box .portfolio-meta div:last-child {font-weight: 400; opacity: 1; font-size: 12px; font-family: 'caviar_dreamsregular' sans-serif !important; }
 .f-single:hover .portfolio-meta,.t-element:hover .portfolio-meta{
 	bottom: 75px;
 	zoom: 1;
@@ -741,7 +741,7 @@ html, body {
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
-.light{background: #fff; position: relative;}
+.light{background: #eee; position: relative;}
 .dark:after {
 	content: '';
 	position: absolute;
@@ -974,8 +974,9 @@ html, body {
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
+
 .t-element:hover .t-data{
-	background: #4cd8ed;
+	background: #eee;
 	
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
@@ -989,6 +990,10 @@ html, body {
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
+}
+
+.t-data:hover{
+	background: #ddd !important;
 }
 /*.t-element:hover .t-photo img{
 	-webkit-filter: saturate(100%);
