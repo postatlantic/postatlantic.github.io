@@ -28,7 +28,7 @@ input,
 select,
 textarea {
     color: #222;
-    font-family: 'caviar_dreamsregular';
+    font-family: 'caviar_dreamsregular' sans-serif !important;
 }
 
 html {
@@ -155,25 +155,7 @@ body {
     color: #547851;
 }
 
-.mc-field-group {
-    padding-bottom: 5px;
-    min-height: 0px !important;
-}
 
-#mc-embedded-subscribe {
-    border: none;
-    background: #547851;
-    color: white;
-    font-weight: normal;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-#mc-embedded-subscribe:hover {
-    border: none;
-    background: #666;
-    
-}
 
 
 

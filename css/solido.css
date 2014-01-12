@@ -2,7 +2,17 @@
 /* Fonts */
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700);
+@font-face {
+font-family: 'caviar_dreamsregular';
+src: url('fonts/CaviarDreams-webfont.eot');
+src: url('fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+     url('fonts/CaviarDreams-webfont.woff') format('woff'),
+     url('fonts/CaviarDreams-webfont.ttf') format('truetype'),
+     url('fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+font-weight: normal;
+font-style: normal;
 
+}
 ::selection {
 	background-color: #4cddf3;
 	color: #333;
@@ -66,7 +76,7 @@ html, body {
 	padding:5px;
 }
 .color-picker{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	width: 223px;
 	height: auto;
 	position: fixed;
@@ -187,7 +197,7 @@ html, body {
 	opacity: 0.5;
 }
 .welcome{
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'caviar_dreamsregular';
 	font-style: italic;
 	font-size: 26px;
 	letter-spacing: 3px;
@@ -274,7 +284,7 @@ html, body {
 	float: left;
 	line-height: 75px;
 	padding: 0 22px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -300,7 +310,7 @@ html, body {
 .logo{
 	float: left;
 	color: #000;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 23px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -327,7 +337,7 @@ html, body {
 }
 .main-title .second-title{
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: 'caviar_dreamsregular';
 	width: 680px;
 	text-transform: none;
 	margin: auto;
@@ -797,7 +807,7 @@ html, body {
 .half-content a{color: #4cddf3; text-decoration: none; font-weight: 400;}
 
 /* Parallax */
-.parallax .p-dark{color: #404040;}
+.parallax .p-dark{color: #eee;}
 .parallax{
 	width: 100%;
 	height: 480px;
@@ -814,7 +824,7 @@ html, body {
 .p-title-one{
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 15px;
 	color: #fff;
 	text-transform: uppercase;
@@ -832,7 +842,7 @@ html, body {
 .p-info{
 	color: #fff;
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	text-align: center;
 	width: 650px;
 	margin: 50px auto 0;
@@ -905,7 +915,7 @@ html, body {
 	opacity: 0.7;
 	font-size: 50px;
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	letter-spacing: 30px;
 	text-transform: uppercase;
 	color: #fff;
@@ -965,7 +975,7 @@ html, body {
 	background: #fff;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	padding: 30px;
 	overflow: auto;
 	
@@ -1117,7 +1127,7 @@ html, body {
 	text-transform: uppercase;
 	font-size: 12px;
 	color: #929292;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	letter-spacing: 3px;
 }
 .controller-2,.controller-3{
@@ -1175,7 +1185,7 @@ html, body {
 }
 .comment{
 	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	color: #acacac;
 }
 .comment span{color: #474747; font-weight: 600;}
@@ -1216,7 +1226,7 @@ html, body {
 	font-size: 14px;
 	text-align: left;
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	line-height: 30px;
 }
 .details ul{
@@ -1266,14 +1276,14 @@ html, body {
 .f-ico.s-three{background-position: -146px 0;}
 .f-ico.s-four{background-position: -219px 0;}
 .s-info{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 14px;
 	color: #b4b4b4;
 	font-weight: 400;
 	line-height: 25px;
 }
 .s-info span{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	color: #434242;
 	font-size: 22px;
 }
@@ -1286,7 +1296,7 @@ html, body {
 	overflow: visible;
 }
 .sl-title{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	color: #434242;
 	font-size: 18px;
 	font-weight: 400;
@@ -1335,7 +1345,7 @@ html, body {
 }
 .info-skills {
 	position: absolute;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 14px;
 	color: #fff;
 	font-weight: 600;
@@ -1469,7 +1479,7 @@ html, body {
 	padding: 0 0;
 	margin: 20% 20px;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	letter-spacing:1px;
 	font-size: 16px;
 	font-weight: 400;
@@ -1506,7 +1516,7 @@ html, body {
 	cursor: pointer;
 	border-radius: 3px;
 	padding: 0px 22px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 15px;
 	color: #c1c1c1;
 	font-weight: 400;
@@ -1595,7 +1605,7 @@ html, body {
 	margin: auto;
 	overflow: auto;
 	color: #a8a8a8;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 17px;
 	font-weight: 400;
 }
@@ -1608,7 +1618,7 @@ html, body {
 }
 .f-title-one{
 	font-weight: 400;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 15px;
 	color: #d7d9da;
 	text-transform: uppercase;
@@ -1621,7 +1631,7 @@ html, body {
 .title-one, .title-full-one{
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 15px;
 	color: #d7d9da;
 	text-transform: uppercase;
@@ -1631,7 +1641,7 @@ html, body {
 
 .f-title-two{
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 28px;
 	color: #434343;
 	margin-bottom: 45px;
@@ -1639,7 +1649,7 @@ html, body {
 .f-data{
 	color: #3f3f3f;
 	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-weight: 600;
 	line-height: 30px;
 }
@@ -1690,7 +1700,7 @@ html, body {
 	font-size: 13px;
 	color: #a8a8a8;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	background: #fbfbfb;
 	}
 /*.foot-third:last-child {padding-left: 0;}*/
@@ -1706,7 +1716,7 @@ html, body {
 	display: inline-block;
 	color: #fff;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	padding: 3px 30px;
 	border-radius: 3px;
 	background: #4cddf3;
@@ -1761,14 +1771,14 @@ html, body {
 }
 .highlight{
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 100px;
 	color: #000000;
 	line-height: 75px;
 }
 .milestone-details{
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 20px;
 	color: #7f7f7f;
 	text-transform: uppercase;
@@ -1791,7 +1801,7 @@ html, body {
 	color: #fff;
 	line-height: 55px;
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	font-size: 25px;
 	text-transform: uppercase;
 	text-align: center;
@@ -1831,13 +1841,13 @@ html, body {
 .description{
 	color: #646464;
 	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	margin-top: 55px;
 }
 .title-project{
 	color: #000;
 	font-size: 30px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	margin: 5px 0 20px;
 	text-transform: uppercase;
 	text-align: center;
@@ -1881,7 +1891,7 @@ html, body {
 .socialFooter .social-icons .social .plus{ background-position: -51px bottom;}
 .socialFooter .copy{
 	text-align:center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'caviar_dreamsregular';
 	color: #aaa;
 	font-size: 13px;
 	margin-top:35px;
@@ -1892,7 +1902,7 @@ html, body {
 	{
 		display:none;
 		width: 60em; /* 1000 */
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'caviar_dreamsregular';
 		font-weight: 400;
 		position: absolute;
 		top: 25%;
@@ -2121,5 +2131,5 @@ html, body {
 /* See more at: http://avexdesigns.com/responsive-youtube-embed/#sthash.xRJhxXBs.dpuf*/
 
 
-.pattern{ background-image:url("../img/slider/pattern.jpg");background-size: cover}
+.pattern{ background-image:url("../img/slider/pattern.jpg");background-size: cover; background-position: center}
 .darker .sticky-wrapper{ background-color:#000;}
