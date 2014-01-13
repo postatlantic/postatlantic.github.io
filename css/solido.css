@@ -688,7 +688,7 @@ html, body {
 .featured-list{overflow: auto;}
 .nav-featured{
 	margin: 80px auto;
-	height: 57px;
+	height: 30px;
 	width: 455px;
 }
 .nav-featured div{float: left; cursor: pointer;}
@@ -1806,7 +1806,7 @@ html, body {
 	display: none;
 	background: /*url('img/scroll-up.png') no-repeat*/ #4ad8ed;
 	color: #fff;
-	line-height: 55px;
+	line-height: 66px;
 	text-decoration: none;
 	font-family: 'caviar_dreamsregular';
 	font-size: 25px;
