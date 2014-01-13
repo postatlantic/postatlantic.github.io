@@ -24,6 +24,12 @@ html, body {
 	margin:0;
 	padding:0;
 }
+.mission {
+    text-align: center;
+    color: #FFF;
+    margin: 0px auto;
+    width: 100%;
+}
 .hideme{opacity: 0;}
 .hideme-slide, .hideme-slide2, .hideme-slide3{opacity: 0; bottom: -100% !important;}
 .dontHide{
@@ -813,6 +819,7 @@ html, body {
 	height: 480px;
 	position: relative;
 	overflow: hidden;
+	text-align: center;
 }
 .p-image-first{margin-left: -335px;}
 .p-image-second{margin-left: -448px;}
@@ -1495,7 +1502,7 @@ html, body {
 
 .ch-grid div span span.p-category { margin-bottom:15px;}
 
-.ch-grid div span span.cat2{ color:#555; padding:0; font-size:13px; text-transform:uppercase;}
+.ch-grid div span span.cat2{ color:#FFF; padding:0; font-size:13px; text-transform:uppercase;}
 
 #options {
 	float: right;
