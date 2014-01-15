@@ -828,7 +828,7 @@ html, body {
 .p-image-first{margin-left: -335px;}
 .p-image-second{margin-left: -448px;}
 .parallax.p-two,.parallax.p-three{height: 525px;}
-.parallax.p-one{height: 680px;}
+.parallax.p-one{height: 520px;}
 .p-one{background: url("../img/parallax/parallax-01.jpg") repeat; background-size: cover; background-position: middle}
 .p-two{background: url("../img/parallax/parallax-02.png") repeat; background-color: #4cddf3;}
 .p-three{background: url("../img/parallax/parallax-01.jpg") repeat}
@@ -840,7 +840,7 @@ html, body {
 	color: #fff;
 	text-transform: uppercase;
 	opacity: 0.5;
-	padding-top: 140px;
+	padding-top: 80px;
 }
 .p-title-two{
 	font-weight: 300;
@@ -1854,6 +1854,7 @@ html, body {
 	font-size: 14px;
 	font-family: 'caviar_dreamsregular';
 	margin-top: 55px;
+	text-align: center;
 }
 .title-project{
 	color: #000;
