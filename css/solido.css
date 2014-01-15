@@ -1390,7 +1390,7 @@ html, body {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.ch-grid:hover .p-category{opacity: 1;}
+.ch-grid:hover .p-category{opacity: .2;}
 .nav-wrapper{position: relative;}
 .nav-wrapper:hover .nav-work{opacity: 1}
 .nav-work{
@@ -1443,7 +1443,7 @@ html, body {
 .ch-item{float: left; width: 100%; cursor: pointer;}
 .ch-item img{width: 100%;}
 .ch-grid img{
-    opacity: 1;
+    opacity: .2;
 	
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -1451,7 +1451,7 @@ html, body {
 	transition: all 0.2s ease-in-out;
 }
 .ch-grid:hover img{
-    opacity: 0.1;
+    opacity: 0.8;
 	
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -1460,7 +1460,6 @@ html, body {
 }
 .ch-grid:hover div{
 	opacity: 1;
-	
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -1468,7 +1467,7 @@ html, body {
 }
 .ch-grid {
     overflow: hidden;
-	background-color: #4cddf3;
+	background-color: none !important;
 }
 .ch-grid div {
 	cursor: pointer;
@@ -1624,7 +1623,7 @@ html, body {
 .foot-third{
 	float: left;
 	width: 365px;
-	padding: 0 0 0 28px;
+	padding: 40px 0 0 28px;
 	line-height: 25px;
 }
 .f-title-one{

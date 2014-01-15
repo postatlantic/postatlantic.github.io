@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Color Fucsia CSS */
-.blue .prev-featured:hover,.blue .next-featured:hover,.blue .s-ico,.blue .sl-ico,.blue .progress-bar .skill-in,.blue .ch-grid,.blue .f-ico,.blue .car-prev,.blue .car-next,.blue .car-prev-2,.blue .car-next-2,.blue .scrollup,.blue .list-dot,.blue .p-two {background-color: #547851;}
+.blue .prev-featured:hover,.blue .next-featured:hover,.blue .s-ico,.blue .sl-ico,.blue .progress-bar .skill-in,.blue,.blue .f-ico,.blue .car-prev,.blue .car-next,.blue .car-prev-2,.blue .car-next-2,.blue .scrollup,.blue .list-dot,.blue .p-two {background-color: #547851;}
 .blue .menu a:hover,.blue #nav .current a,.blue .f-image .f-category,.blue .t-photo .f-category,.blue .half-content a,.blue .contour-btn:hover, .blue .second-title span {color: #bbb !important;}
 .blue .f-image .f-category {background-position: 0 0;}
 .blue .t-photo .f-category {background-position: 0 -44px;}
