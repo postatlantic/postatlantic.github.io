@@ -829,7 +829,7 @@ html, body {
 .p-image-second{margin-left: -448px;}
 .parallax.p-two,.parallax.p-three{height: 525px;}
 .parallax.p-one{height: 680px;}
-.p-one{background: url("../img/parallax/parallax-01.jpg") repeat; background-size: 120%;}
+.p-one{background: url("../img/parallax/parallax-01.jpg") repeat; background-size: cover; background-position: middle}
 .p-two{background: url("../img/parallax/parallax-02.png") repeat; background-color: #4cddf3;}
 .p-three{background: url("../img/parallax/parallax-01.jpg") repeat}
 .p-title-one{
