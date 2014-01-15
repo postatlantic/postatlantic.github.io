@@ -732,7 +732,7 @@ html, body {
 	text-align: center;
 	font-family: 'caviar_dreamsregular' sans-serif;
 }
-.title.one{color: #404141; font-size: 37px; letter-spacing: 5px; padding: 120px 0 60px; text-transform: uppercase;}
+.title.one{color: #404141; font-size: 37px; letter-spacing: 5px; padding: 60px 0 20px; text-transform: uppercase;}
 .title.two{color: #757575; font-size: 17px; font-family: 'caviar_dreamsregular' sans-serif; width: 680px; margin: 50px auto;}
 .f-info{
 	font-weight: 400;
