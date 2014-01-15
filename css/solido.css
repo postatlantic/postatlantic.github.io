@@ -1443,7 +1443,7 @@ html, body {
 .ch-item{float: left; width: 100%; cursor: pointer;}
 .ch-item img{width: 100%;}
 .ch-grid img{
-    opacity: .2;
+    opacity: .8;
   
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1451,7 +1451,7 @@ html, body {
   transition: all 0.2s ease-in-out;
 }
 .ch-grid:hover img{
-    opacity: 0.8;
+    opacity: 0.6;
   
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -2149,8 +2149,8 @@ html, body {
 
 
 .ch-grid img {
-  opacity:1;
+  opacity:.8 !important;
 }
 .ch-grid > div {
-  background-color: rgba(32, 139, 79, 0.631373);
+  background-color: rgba(84, 120, 81, .6) !important;
 }
