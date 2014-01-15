@@ -2144,3 +2144,13 @@ html, body {
 
 .pattern{ background-image:url("../img/slider/pattern.jpg");background-size: cover; background-position: center}
 .darker .sticky-wrapper{ background-color:#000;}
+
+
+
+
+.ch-grid img {
+  opacity:1;
+}
+.ch-grid > div {
+  background-color: rgba(32, 139, 79, 0.631373);
+}
