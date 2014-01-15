@@ -17,6 +17,10 @@ font-style: normal;
 	background-color: #4cddf3;
 	color: #333;
 }
+#anchor4 {
+	display: none;
+}
+
 html, body {
 	background: #fff;
 	width:100%;
@@ -641,7 +645,7 @@ html, body {
 }
 
 .content{position: relative;}
-.dark{background: #f7f7f7; padding-bottom: 45px;}
+.dark{background: #f7f7f7; padding-bottom: 45px; background-image: url('../img/texture.jpg');}
 /*.menu-top{margin-top: 75px;}*/
 .f-single{
 	width: 467px;
@@ -979,7 +983,7 @@ html, body {
 .t-element:nth-child(8){margin-right: 0;}
 .t-element:nth-child(12){margin-right: 0;}
 .t-data{
-	background: #fff;
+	background: hsla(0,0%,10%,.1);
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'caviar_dreamsregular';
