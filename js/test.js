@@ -54,7 +54,7 @@ $(document).ready(function(){
 			if($(this).attr('class')==='parallax'){
 				$(this).css('background-position', '0 '+$(window).scrollTop()/3+'px');
 			}else{
-				$(this).css('background-position', '0 '+(($(window).scrollTop()+$(window).height()-$(this).attr('yPos'))/3+$(this).height())+'px');
+				$(this).css('background-position', '0 '+(($(window).scrollTop()+$(window).height()-$(this).attr('yPos'))/4+$(this).height()-100)+'px');
 			}
 		});
 	}
