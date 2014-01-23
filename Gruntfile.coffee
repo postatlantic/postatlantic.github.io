@@ -5,69 +5,27 @@ module.exports = (grunt) ->
   # Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    concat: {
+    concat:
       options:
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-      vendor:
-        src: 'vendor/*'
-        dest: 'build/vendor.js'
-      lessie:
-        src: 'assets/stylesheets/*.less'
-        dest: 'build/style.less'
-    }
-    uglify: {
-      options: {
+        seperator: ';/*THIS IS A NEW FILE !!!!*/\n'
+      css:
+        src: ['css/normalize.css','css/main.css','css/solido.css','css/isotope.css','css/responsive.css','css/vegas/jquery.vegas.css','css/popup/magnific-popup.css','css/color/blue.css','css/aditional.css']
+        dest: 'assets/style.css'
+      js:
+        src : ['js/jquery.carouFredSel-6.2.1-packed.js','js/jquery.smoothwheel.js','js/main.js','js/jquery.inview.js','js/jquery.sticky.js','js/caroussel/jquery.easing.1.3.js','js/portfolio.js','js/vegas/jquery.vegas.js','js/jquery.hoverdir.js','js/jquery.nav.js','js/popup/jquery.magnific-popup.js','js/caroussel/jquery.contentcarousel.js','js/jquery.isotope.min.js','js/plugins.js','js/jquery.validate.js :','js/jquery.form.js','js/test.js','js/video.js']
+        dest : 'assets/app.js'
+    uglify:
+      options:
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-      },
-      app: {
-        src: 'build/app.js'
-        dest: 'build/app.js'
-      }
-      vendor: {
-        src: 'build/vendor.js'
-        dest: 'build/vendor.js'
-      }
-    }
-    coffee : {
-      # Must specify the order in which angular files will be loaded
-      'build/app.js' : ['ng/app.coffee','ng/config.coffee','ng/routes.coffee','ng/directives/*.coffee','ng/services/*.coffee','ng/controllers/*.coffee', 'ng/fuse/*.coffee']
-      options :  {
-        bare: true
-      }
-    }
-    less: {
-      development:
-        files:
-          'build/app.css' : 'build/style.less'
-    }
-    watch: {
-      scripts:
-        files: ['**/*.coffee']
-        tasks: ['coffee']
+      files:
+        'assets/app.min.js': ['assets/app.js']
+    cssmin:
+      files:
+        'assets/style.min.css' : ['assets/style.css']
+      add_banner:
         options:
-          spawn: false
-      css :
-        files: ['**/*.less']
-        tasks: ['concat','less']
-        options:
-          spawn: false
-      html :
-        files: ['**/*.html']
-        task: ['bgShell:templates']
-        options:
-          spawn: false
-    }
-  cssmin: {
-    add_banner: {
-      options: {
-        banner: '/* IDEAJOT */'
-      },
-      files: {
-        'build/app.css': ['build/app.css']
-      }
-    }
-  }
-
+          banner: '/* My minified css file */'
   })
 
   #load the plugin that provides the 'concat' task.
@@ -76,41 +34,19 @@ module.exports = (grunt) ->
   # Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify')
 
-  # Load the coffeeCompiler task "coffee"
-  # https://github.com/gruntjs/grunt-contrib-coffee
-  grunt.loadNpmTasks('grunt-contrib-coffee')
-
-  # watch will run certain commands whenever a pattern matching file changes
-  # https://npmjs.org/package/grunt-contrib-watch
-  grunt.loadNpmTasks('grunt-contrib-watch')
-
-  # allows to run command line tasks
-  # https://github.com/jharding/grunt-exec
-  # grunt.loadNpmTasks('grunt-exec')
-
-  # https://github.com/rma4ok/grunt-bg-shell
-  grunt.loadNpmTasks('grunt-bg-shell')
-
-  # https://github.com/gruntjs/grunt-contrib-less
-  grunt.loadNpmTasks('grunt-contrib-less')
-
   # https://github.com/gruntjs/grunt-contrib-cssmin
   grunt.loadNpmTasks('grunt-contrib-cssmin')
 
-  # https://github.com/bustardcelly/grunt-forever
-  # grunt.loadNpmTasks('grunt-forever')
-  # sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8888  #
 
-  # Default task(s).
-  grunt.registerTask('default', ['uglify'])
 
-  grunt.registerTask('concatCss', ['concat'])
+  grunt.registerTask 'styles', ['concat', 'cssmin']
 
-  grunt.registerTask('makeJs', ['coffee'])
 
-  grunt.registerTask('server', ['concat','less','coffee','cssmin','bgShell:templates'])
 
-  grunt.registerTask('startServer', ['less','coffee','concat','bgShell:setPath','bgShell:templates','bgShell:gwatch','bgShell:tserver'])
+
+
+
+
 
 
 
