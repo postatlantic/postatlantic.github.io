@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "buildTo": "./build/",
   "styleSheets": "./assets/stylesheets/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/postatlantic/postatlantic.github.io.git"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.3",
@@ -14,7 +18,8 @@
     "grunt-exec": "~0.4.2",
     "grunt-bg-shell": "~2.3.0",
     "grunt-contrib-less": "~0.8.2",
-    "grunt-contrib-cssmin": "~0.7.0"
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-css": "~0.5.4"
   },
   "dependencies": {
     "grunt-forever": "~0.4.1",
