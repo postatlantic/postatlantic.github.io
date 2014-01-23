@@ -1,0 +1,10 @@
+.ch-grid img {
+  opacity:1;
+}
+.ch-grid > div {
+  background-color: rgba(32, 139, 79, 0.631373);
+}
+.title, .title.two {
+  font-family: caviar_dreamsregular;
+}
+
