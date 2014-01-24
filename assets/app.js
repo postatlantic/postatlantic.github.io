@@ -1,4 +1,4 @@
-/*! PostAtlantic 2014-01-23 */
+/*! PostAtlantic 2014-01-24 */
 /*
  *	jQuery carouFredSel 6.2.1
  *	Demo's and documentation:
